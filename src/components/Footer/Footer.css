@@ -1,0 +1,20 @@
+.footer {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #f2c94c; /* amarillo suave, combinar con header */
+  text-align: center;
+  color: #333;
+  font-weight: 500;
+  box-shadow: 0 -4px 8px rgba(0,0,0,0.1);
+  margin-top: 40px;
+}
+
+.footer a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer a:hover {
+  color: #f2994a;
+}

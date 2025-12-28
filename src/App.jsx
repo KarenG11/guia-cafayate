@@ -1,5 +1,6 @@
-import Header from './components/Header';
-import Section from './components/Section';
+import Header from './components/Header/Header';
+import Section from './components/Section/Section';
+import Footer from './components/Footer/Footer';
 
 // Alojamientos
 const alojamientos = {
@@ -16,7 +17,7 @@ const alojamientos = {
 };
 
 // Restaurantes y Bodegas
-const restaurantes = {
+const comercios = {
   Restaurantes: [
     { name: "La Parrilla", description: "Comida regional", contact: "543811234571", sponsor: "Plata" },
     { name: "Bistró del Valle", description: "Menú gourmet", contact: "543811234572", sponsor: "Bronce" }
@@ -31,9 +32,19 @@ const servicios = {
   Remises: [
     { name: "Remises Cafayate", description: "Servicio rápido y seguro", contact: "543811234574", sponsor: "Plata" }
   ],
-  Guías: [
+  Guias: [
     { name: "Guía Turístico Local", description: "Tours personalizados", contact: "543811234575", sponsor: "Bronce" }
   ]
+};
+
+// Función para asignar color según sponsor
+const sponsorColor = (level) => {
+  switch(level) {
+    case "Bronce": return "#a0522d"; // marrón
+    case "Plata": return "#4a90e2"; // azul
+    case "Oro": return "#f2c94c";   // amarillo
+    default: return "#ccc";          // gris si no tiene
+  }
 };
 
 function App() {
@@ -41,12 +52,14 @@ function App() {
     <>
       <Header />
       <div id="root">
-        <Section title="Alojamientos" items={alojamientos} />
-        <Section title="Restaurantes y Bodegas" items={restaurantes} />
-        <Section title="Servicios" items={servicios} />
+        <Section title="Alojamientos" items={alojamientos} sponsorColor={sponsorColor} />
+        <Section title="Comercios" items={comercios} sponsorColor={sponsorColor} />
+        <Section title="Servicios" items={servicios} sponsorColor={sponsorColor} />
       </div>
+      <Footer />
     </>
   );
 }
 
 export default App;
+

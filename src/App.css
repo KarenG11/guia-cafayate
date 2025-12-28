@@ -1,11 +1,17 @@
+/* ======================
+   Estilos Generales
+====================== */
 body {
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
   background-color: #fdf6e3; /* color cálido de fondo */
+  color: #1a1a1a;
 }
 
-/* Header */
+/* ======================
+   Header
+====================== */
 header {
   width: 100%;
   padding: 50px 20px;
@@ -28,7 +34,9 @@ header p {
   margin: 0;
 }
 
-/* Contenedor principal */
+/* ======================
+   Contenedor Principal
+====================== */
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -36,7 +44,9 @@ header p {
   text-align: center;
 }
 
-/* Secciones */
+/* ======================
+   Secciones
+====================== */
 section {
   padding: 30px 20px;
   margin-bottom: 30px;
@@ -45,7 +55,6 @@ section {
   box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 
-/* Título de sección */
 section h2 {
   font-size: 2rem;
   margin-bottom: 20px;
@@ -62,7 +71,9 @@ section h2 {
   gap: 20px;
 }
 
-/* Cards */
+/* ======================
+   Cards
+====================== */
 .card {
   border-radius: 12px;
   padding: 20px;
@@ -106,7 +117,43 @@ section h2 {
   background-color: #1ebe57;
 }
 
-/* Responsive */
+/* ======================
+   Footer
+====================== */
+footer {
+  width: 100%;
+  background-color: #f2c94c;
+  color: #1a1a1a;
+  padding: 20px 0;
+  box-shadow: 0 -4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+footer .footer-content {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+footer .footer-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #1a1a1a;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+footer .footer-links a:hover {
+  color: #646cff;
+}
+
+/* ======================
+   Responsividad
+====================== */
 @media (max-width: 768px) {
   .card {
     width: 90%;

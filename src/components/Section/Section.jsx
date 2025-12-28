@@ -1,4 +1,4 @@
-import Card from './Card';
+import Card from '../Card';
 import './Section.css';
 
 function Section({ title, items }) {
