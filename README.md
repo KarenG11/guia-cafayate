@@ -1,77 +1,51 @@
-🌟 GUÍA CAFAYATE – GUÍA DIGITAL TURÍSTICA
+### **Título: Guía Cafayate**
 
-¡Bienvenido a la Guía Digital de Cafayate!
-Una herramienta para turistas y locales, con información verificada sobre alojamientos, comercios y servicios en la región.
+***
 
-🏨 ALOJAMIENTOS
+### **Descripción**
+Guía Digital de Cafayate es una aplicación web diseñada para **turistas y locales**, que centraliza información **verificada** sobre alojamientos, comercios y servicios en la región.  
+Permite a los negocios locales aparecer como **sponsors**, ganando visibilidad, mientras los usuarios acceden a información confiable y segura.
 
-Hoteles 🏩
+***
 
-Hostales / Hostels 🛏️
+### **Funcionalidades**
 
-Campings / Carpas ⛺
+#### **Alojamientos**  
+- Hoteles 🏩  
+- Hostales / Hostels 🛏️  
+- Campings / Carpas ⛺  
 
-🍽️ COMERCIOS Y RESTAURANTES
+#### **Comercios y Restaurantes**  
+- Restaurantes locales 🍲  
+- Bodegas 🍷  
+- Tiendas y comercios verificados 🛍️  
 
-Restaurantes locales 🍲
+#### **Servicios**  
+- Remises y taxis 🚕  
+- Otros servicios turísticos y locales 🛎️  
 
-Bodegas 🍷
+#### **Sponsors y visibilidad de negocios**  
+- **Bronce 🟢**: Nombre, rubro y contacto WhatsApp  
+- **Plata 🟡**: Todo lo anterior + descripción breve + ubicación aproximada + sello ✔️ verificado  
+- **Oro 🔴**: Todo lo anterior + destacado en la página + logo + mención en redes sociales  
 
-Tiendas y comercios verificados 🛍️
+#### **Interfaz intuitiva y accesible**  
+- Navegación clara por categorías  
+- Información actualizada y confiable  
+- Prevención de estafas para turistas  
 
-🚖 SERVICIOS
+***
 
-Remises y taxis 🚕
+### **Tecnologías Utilizadas**
+- **Frontend**: React + Vite  
+- **Estilos**: CSS modularizado  
+- **Despliegue**: Vercel (actualizaciones automáticas)  
+- **Control de versiones**: Git + GitHub  
 
-Otros servicios turísticos y locales 🛎️
+***
 
-💎 SPONSORS
+### **Instalación**
 
-Los negocios pueden aparecer como sponsors, con distintos niveles de visibilidad:
-
-Nivel	Beneficios
-🟢 Bronce	Nombre, rubro y contacto WhatsApp
-🟡 Plata	Todo lo anterior + descripción breve + ubicación aproximada + sello ✔️ verificado
-🔴 Oro	Todo lo anterior + destacado en la página + logo + mención en redes sociales
-
-Beneficio: los negocios ganan visibilidad y los turistas confianza, evitando estafas y desinformación.
-
-⚡ TECNOLOGÍAS
-
-React + Vite – desarrollo rápido y eficiente
-
-CSS modularizado – estilos encapsulados por componente
-
-Vercel – despliegue continuo y actualización automática
-
-🚀 CÓMO EJECUTAR EL PROYECTO
-
-1️⃣ Clonar el repositorio:
-
+1. Clonar el repositorio:  
+```bash
 git clone https://github.com/KarenG11/guia-cafayate.git
-
-
-2️⃣ Instalar dependencias:
-
-npm install
-
-
-3️⃣ Ejecutar en modo desarrollo:
-
-npm run dev
-
-
-4️⃣ Abrir en el navegador:
-
-http://localhost:5173/
-
-🤝 CONTRIBUCIONES
-
-Abrí un issue para sugerencias o problemas
-
-Hacé un pull request con mejoras o nuevas funcionalidades
-
-📬 CONTACTO
-
-Karen Gutierrez – creadora y responsable del proyecto
-✉️ karennilda45@gmail.com
