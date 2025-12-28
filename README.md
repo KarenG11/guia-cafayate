@@ -1,16 +1,77 @@
-# React + Vite
+🌟 Guía Cafayate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido a la Guía Digital de Cafayate!
+Una herramienta pensada para turistas y locales, que reúne información verificada sobre alojamientos, comercios y servicios en la región.
 
-Currently, two official plugins are available:
+🏨 Alojamientos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Hoteles 🏩
 
-## React Compiler
+Hostales / Hostels 🛏️
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Campings / Carpas ⛺
 
-## Expanding the ESLint configuration
+🍽️ Comercios y Restaurantes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Restaurantes locales 🍲
+
+Bodegas 🍷
+
+Tiendas y comercios verificados 🛍️
+
+🚖 Servicios
+
+Remises y taxis 🚕
+
+Otros servicios turísticos y locales 🛎️
+
+💎 Sponsors
+
+Los negocios pueden aparecer en la guía como sponsors, con distintos niveles de visibilidad:
+
+Nivel	Beneficios
+🟢 Bronce	Nombre, rubro y contacto WhatsApp
+🟡 Plata	Todo lo anterior + descripción breve + ubicación aproximada + sello ✔️ verificado
+🔴 Oro	Todo lo anterior + destacado en la página + logo + mención en redes sociales
+
+Esto permite a los negocios ganar visibilidad y a los turistas confianza, evitando estafas y desinformación.
+
+⚡ Tecnologías
+
+React + Vite – desarrollo rápido y eficiente
+
+CSS modularizado – estilo para cada componente
+
+Vercel – despliegue en línea, con actualizaciones automáticas
+
+🚀 Cómo ejecutar el proyecto
+
+Cloná el repositorio:
+
+git clone https://github.com/KarenG11/guia-cafayate.git
+
+
+Instalá dependencias:
+
+npm install
+
+
+Ejecutá en modo desarrollo:
+
+npm run dev
+
+
+Abrí en tu navegador: http://localhost:5173/
+
+🤝 Contribuciones
+
+Si querés ayudar a mejorar la guía digital:
+
+Abrí un issue para sugerencias
+
+Hacé un pull request con tus mejoras
+
+📬 Contacto
+
+Karen Gutierrez – creadora y responsable del proyecto
+karennilda45@gmail.com
