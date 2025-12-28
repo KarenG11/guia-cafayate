@@ -1,9 +1,9 @@
-🌟 Guía Cafayate
+🌟 GUÍA CAFAYATE – GUÍA DIGITAL TURÍSTICA
 
 ¡Bienvenido a la Guía Digital de Cafayate!
-Una herramienta pensada para turistas y locales, que reúne información verificada sobre alojamientos, comercios y servicios en la región.
+Una herramienta para turistas y locales, con información verificada sobre alojamientos, comercios y servicios en la región.
 
-🏨 Alojamientos
+🏨 ALOJAMIENTOS
 
 Hoteles 🏩
 
@@ -11,7 +11,7 @@ Hostales / Hostels 🛏️
 
 Campings / Carpas ⛺
 
-🍽️ Comercios y Restaurantes
+🍽️ COMERCIOS Y RESTAURANTES
 
 Restaurantes locales 🍲
 
@@ -19,59 +19,59 @@ Bodegas 🍷
 
 Tiendas y comercios verificados 🛍️
 
-🚖 Servicios
+🚖 SERVICIOS
 
 Remises y taxis 🚕
 
 Otros servicios turísticos y locales 🛎️
 
-💎 Sponsors
+💎 SPONSORS
 
-Los negocios pueden aparecer en la guía como sponsors, con distintos niveles de visibilidad:
+Los negocios pueden aparecer como sponsors, con distintos niveles de visibilidad:
 
 Nivel	Beneficios
 🟢 Bronce	Nombre, rubro y contacto WhatsApp
 🟡 Plata	Todo lo anterior + descripción breve + ubicación aproximada + sello ✔️ verificado
 🔴 Oro	Todo lo anterior + destacado en la página + logo + mención en redes sociales
 
-Esto permite a los negocios ganar visibilidad y a los turistas confianza, evitando estafas y desinformación.
+Beneficio: los negocios ganan visibilidad y los turistas confianza, evitando estafas y desinformación.
 
-⚡ Tecnologías
+⚡ TECNOLOGÍAS
 
 React + Vite – desarrollo rápido y eficiente
 
-CSS modularizado – estilo para cada componente
+CSS modularizado – estilos encapsulados por componente
 
-Vercel – despliegue en línea, con actualizaciones automáticas
+Vercel – despliegue continuo y actualización automática
 
-🚀 Cómo ejecutar el proyecto
+🚀 CÓMO EJECUTAR EL PROYECTO
 
-Cloná el repositorio:
+1️⃣ Clonar el repositorio:
 
 git clone https://github.com/KarenG11/guia-cafayate.git
 
 
-Instalá dependencias:
+2️⃣ Instalar dependencias:
 
 npm install
 
 
-Ejecutá en modo desarrollo:
+3️⃣ Ejecutar en modo desarrollo:
 
 npm run dev
 
 
-Abrí en tu navegador: http://localhost:5173/
+4️⃣ Abrir en el navegador:
 
-🤝 Contribuciones
+http://localhost:5173/
 
-Si querés ayudar a mejorar la guía digital:
+🤝 CONTRIBUCIONES
 
-Abrí un issue para sugerencias
+Abrí un issue para sugerencias o problemas
 
-Hacé un pull request con tus mejoras
+Hacé un pull request con mejoras o nuevas funcionalidades
 
-📬 Contacto
+📬 CONTACTO
 
 Karen Gutierrez – creadora y responsable del proyecto
-karennilda45@gmail.com
+✉️ karennilda45@gmail.com
